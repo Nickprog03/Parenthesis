@@ -4,11 +4,11 @@ using System.Linq;
 
 namespace Parenthesis
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(IsBalanced("((1+3)()(4+(3-5)))"));
+            Console.WriteLine("Сбалансированность скобок: " + IsBalanced("((1+3)()(4+(3-5)))"));
         }
 
         public static bool IsBalanced(string input)
@@ -34,10 +34,8 @@ namespace Parenthesis
                         // проверить является ли символ закрывающей скобкой
                         if (bracketPairs.Values.Contains(c))
                     {
-                        // check if the closing bracket matches the 'latest' 'opening' bracket
-                        // проверить подходит ли закрывающая скобка в пару 'последней' 'открывающей' скобкой
-                        if (c == bracketPairs[brackets.First()])
-                        // if (c == bracketPairs['(']
+                        
+                        if (c == bracketPairs['('])
                         {
                             // удалить из стэка
                             brackets.Pop();

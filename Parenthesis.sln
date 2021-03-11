@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parenthesis", "Parenthesis.csproj", "{8E5EB9F8-6F10-4705-A14F-BFBE89442DBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parenthesis", "Parenthesis.csproj", "{8E5EB9F8-6F10-4705-A14F-BFBE89442DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParenthesisTests", "..\ParenthesisTests\ParenthesisTests.csproj", "{AAEAA6E1-437D-4811-A3F6-714D7F7FAA32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8E5EB9F8-6F10-4705-A14F-BFBE89442DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E5EB9F8-6F10-4705-A14F-BFBE89442DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E5EB9F8-6F10-4705-A14F-BFBE89442DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEAA6E1-437D-4811-A3F6-714D7F7FAA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEAA6E1-437D-4811-A3F6-714D7F7FAA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEAA6E1-437D-4811-A3F6-714D7F7FAA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEAA6E1-437D-4811-A3F6-714D7F7FAA32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
