@@ -34,7 +34,9 @@ namespace Parenthesis
                         // проверить является ли символ закрывающей скобкой
                         if (bracketPairs.Values.Contains(c))
                     {
-                        
+                        // check if the closing bracket matches the 'latest' 'opening' bracket
+                        // проверить подходит ли закрывающая скобка в пару 'последней' 'открывающей' скобкой
+                        //if (c == bracketPairs[brackets.First()])
                         if (c == bracketPairs['('])
                         {
                             // удалить из стэка
